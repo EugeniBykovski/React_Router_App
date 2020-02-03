@@ -1,0 +1,39 @@
+.AppButton {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.AppButton:focus, .AppButton:active {
+  outline: none;
+}
+
+.AppButton:hover {
+  background: #f0ff1e;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.nav ul li {
+  margin-right: 15px;
+}
+
+.nav ul a.active, .nav ul a.wfm-active {
+  font-weight: bold;
+  color: red;
+}
+/*# sourceMappingURL=App.css.map */

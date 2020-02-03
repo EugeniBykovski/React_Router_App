@@ -1,0 +1,38 @@
+.Car {
+  margin-bottom: 10px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: border, -webkit-box-shadow .3s;
+  transition: border, -webkit-box-shadow .3s;
+  transition: border, box-shadow .3s;
+  transition: border, box-shadow .3s, -webkit-box-shadow .3s;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.Car:hover {
+  border: 1px solid #aaa;
+  -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.input:active {
+  outline: none;
+}
+
+.input.green {
+  border: 1px solid green;
+}
+
+.input.red {
+  border: 1px solid red;
+}
+
+.input.bold {
+  border: 2px solid green;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Car.css.map */
